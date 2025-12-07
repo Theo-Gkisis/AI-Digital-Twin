@@ -1,2 +1,4 @@
 We'll use uv - a modern, fast Python package manager that's much faster than pip.
     uv --version
+
+    "arn:aws:iam::474163117842:role/github-actions-twin-deploy"
