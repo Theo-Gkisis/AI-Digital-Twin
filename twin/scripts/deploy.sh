@@ -35,6 +35,7 @@ else
   TF_APPLY_CMD=(terraform apply -var="project_name=$PROJECT_NAME" -var="environment=$ENVIRONMENT" -auto-approve)
 fi
 
+
 echo "🎯 Applying Terraform..."
 "${TF_APPLY_CMD[@]}"
 

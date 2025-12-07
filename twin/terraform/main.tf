@@ -14,6 +14,8 @@ locals {
     Environment = var.environment
     ManagedBy   = "terraform"
   }
+
+  
 }
 
 # S3 bucket for conversation memory
